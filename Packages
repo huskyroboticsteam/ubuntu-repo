@@ -1,0 +1,14 @@
+Package: urg-lidar
+Version: 1.2.5-2
+Architecture: amd64
+Maintainer: Husky Robotics Team <uwrobots@uw.edu>
+Installed-Size: 355
+Filename: ./urg-lidar-1.2.5-2.deb
+Size: 66548
+MD5sum: c79a2c1e90067afdeff827b0956ce4d4
+SHA1: 525873594379261bc61dae66ddcb2a3469bd120c
+SHA256: 7983a38c3771e71b6e3bea8addb989a84b5f13b242cf37fdf17bc82a31d55118
+Section: devel
+Priority: optional
+Description: URGLidar built using CMake
+
