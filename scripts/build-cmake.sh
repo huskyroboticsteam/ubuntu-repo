@@ -3,17 +3,21 @@
 echoerr() { echo "$@" 1>&2; }
 blockmsg() { echoerr ""; echoerr "$@"; }
 
-GIT_REPO="https://github.com/huskyroboticsteam/urg-lidar"
+if [ -z $1 ]; then
+	echoerr "Usage: $0 <repo url> [tag]"
+	exit 1
+fi
+GIT_REPO="$1"
 REPO_NAME="$(basename $GIT_REPO)"
 
 # The git tag to use when checking out; uses the first argument of the script if set, and
-# defaults to v1.2.5-2 if not.
-TAG="${1:-v1.2.5-2}"
-if [ -z $1 ]; then
-    echoerr "No argument given; defaulting to $TAG"
+# defaults to default branch if not.
+TAG="$2"
+if [ -z $TAG ]; then
+    echoerr "No tag given; building from default branch"
+else
+	echoerr "Building version at tag $TAG"
 fi
-
-echoerr "Building version at tag $TAG"
 
 BUILD_DIR="${BUILD_DIR:-/tmp/}"
 OUTPUT_DIR="${OUTPUT_DIR:-$(readlink -f .)}"
@@ -33,8 +37,10 @@ else
 fi
 cd "$REPO_NAME"
 
-blockmsg "Switching to tag $TAG"
-git checkout "$TAG"
+if [ -n "$TAG" ]; then
+	blockmsg "Switching to tag $TAG"
+	git checkout "$TAG"
+fi
 
 blockmsg "Running CMake build..."
 mkdir -p build && cd build
