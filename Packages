@@ -1,13 +1,27 @@
+Package: rplidar
+Version: 1.9.0
+Architecture: amd64
+Maintainer: Husky Robotics Team <uwrobots@uw.edu>
+Installed-Size: 505
+Filename: ./rplidar-1.9.0.deb
+Size: 94352
+MD5sum: 9bca8546ece71930605e56076ad429cf
+SHA1: 86fdac98a82267355b1ceee029fca82225ea730b
+SHA256: ef6e203b459af279ae95d79589ad1dd7d4762430ffb08af2a1b720b981e2b3e3
+Section: devel
+Priority: optional
+Description: RPLidar built using CMake
+
 Package: urg-lidar
 Version: 1.2.5-2
 Architecture: amd64
 Maintainer: Husky Robotics Team <uwrobots@uw.edu>
 Installed-Size: 355
 Filename: ./urg-lidar-1.2.5-2.deb
-Size: 66548
-MD5sum: c79a2c1e90067afdeff827b0956ce4d4
-SHA1: 525873594379261bc61dae66ddcb2a3469bd120c
-SHA256: 7983a38c3771e71b6e3bea8addb989a84b5f13b242cf37fdf17bc82a31d55118
+Size: 66498
+MD5sum: 0402d9a033f14fbdd856103823ddc8ad
+SHA1: 73142f429a178cede68064a6118e723a797d82a0
+SHA256: 6819d7e9c4fafb4cfc3fc91e4d7ced283d406d092ca4d5dde8bd4e9abce9fdaf
 Section: devel
 Priority: optional
 Description: URGLidar built using CMake
