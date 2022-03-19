@@ -1,13 +1,27 @@
+Package: catch2
+Version: 2.13.7
+Architecture: amd64
+Maintainer: https://github.com/catchorg/Catch2/
+Installed-Size: 987
+Filename: ./Catch2-2.13.7-Linux.deb
+Size: 226134
+MD5sum: be4693e11965b2780a9d3d115b18244b
+SHA1: 2b722703136cbb67b3289057f58921b17f41e215
+SHA256: 4f4acb6dac83573344858b958b36fe57a910f1dc11ca2578a9dbdb7b3d87955b
+Section: devel
+Priority: optional
+Description: Catch2 built using CMake
+
 Package: rplidar
 Version: 1.9.0
 Architecture: amd64
 Maintainer: Husky Robotics Team <uwrobots@uw.edu>
 Installed-Size: 505
 Filename: ./rplidar-1.9.0.deb
-Size: 94352
-MD5sum: 9bca8546ece71930605e56076ad429cf
-SHA1: 86fdac98a82267355b1ceee029fca82225ea730b
-SHA256: ef6e203b459af279ae95d79589ad1dd7d4762430ffb08af2a1b720b981e2b3e3
+Size: 94348
+MD5sum: 66d972209e978c1a44656dc48b0f2f43
+SHA1: 2da6189205ca01740698a0a7235ac0f247b2ef21
+SHA256: f6f91548745f873fed23119b4e1c26e88c99363720d2f8b4da477e106dcf17af
 Section: devel
 Priority: optional
 Description: RPLidar built using CMake
@@ -18,10 +32,10 @@ Architecture: amd64
 Maintainer: Husky Robotics Team <uwrobots@uw.edu>
 Installed-Size: 355
 Filename: ./urg-lidar-1.2.5-2.deb
-Size: 66498
-MD5sum: 0402d9a033f14fbdd856103823ddc8ad
-SHA1: 73142f429a178cede68064a6118e723a797d82a0
-SHA256: 6819d7e9c4fafb4cfc3fc91e4d7ced283d406d092ca4d5dde8bd4e9abce9fdaf
+Size: 66492
+MD5sum: 296e0b7bd662cd1e62b66c2796f236ae
+SHA1: 9072c54db0229db12516a558817014cddf5c3820
+SHA256: 5d51f0f4f816897d2e74725b3bc6b67cd84e9aa25ae0db8733ea2905f6530728
 Section: devel
 Priority: optional
 Description: URGLidar built using CMake
