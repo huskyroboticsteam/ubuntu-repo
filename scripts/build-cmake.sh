@@ -33,7 +33,7 @@ cd "$BUILD_DIR"
 if [ -d "$REPO_NAME" ]; then
     echoerr "$REPO_NAME already exists, skipping clone..."
 else
-    git clone "$GIT_REPO" "$REPO_NAME"
+    git clone --recursive "$GIT_REPO" "$REPO_NAME"
 fi
 cd "$REPO_NAME"
 

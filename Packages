@@ -54,6 +54,20 @@ Section: devel
 Priority: optional
 Description: RPLidar built using CMake
 
+Package: ublox-linux
+Version: 2.0.6-1
+Architecture: amd64
+Maintainer: Husky Robotics Team <uwrobots@uw.edu>
+Installed-Size: 1038
+Filename: ./ublox-linux-2.0.6-1.deb
+Size: 184796
+MD5sum: c30ce8bec24b36c483b99e7ebb3f02a3
+SHA1: ec8a3f4c6bbb4bba54f88572fbd8ee13fc757a22
+SHA256: 6f6f48712bbc6691f0caaa820c419a8b7212f01de8b8835406db570040c4436e
+Section: devel
+Priority: optional
+Description: UbloxLinux built using CMake
+
 Package: urg-lidar
 Version: 1.2.5-2
 Architecture: amd64

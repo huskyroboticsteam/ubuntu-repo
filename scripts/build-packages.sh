@@ -6,10 +6,12 @@ EMAIL="uwrobots@uw.edu"
 URG_LIDAR_URL="https://github.com/huskyroboticsteam/urg-lidar"
 RPLIDAR_URL="https://github.com/huskyroboticsteam/rplidar"
 CATCH2_URL="https://github.com/catchorg/catch2"
+UBLOX_URL="https://github.com/huskyroboticsteam/ublox-linux"
 
 if [[ -z $1 || "$1" == "urg-lidar" ]]; then "$BUILD" "$URG_LIDAR_URL" "v1.2.5-2"; fi
 if [[ -z $1 || "$1" == "rplidar" ]]; then "$BUILD" "$RPLIDAR_URL" "v1.10.0"; fi
 if [[ -z $1 || "$1" == "catch2" ]]; then "$BUILD" "$CATCH2_URL" "v2.13.7"; fi
+if [[ -z $1 || "$1" == "ublox" ]]; then "$BUILD" "$UBLOX_URL" "v2.0.6-1"; fi
 
 touch -t 197001010000.00 *.deb
 
