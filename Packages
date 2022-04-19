@@ -55,6 +55,20 @@ Priority: optional
 Description: RPLidar built using CMake
 
 Package: rplidar
+Version: 1.10.1-3
+Architecture: amd64
+Maintainer: Husky Robotics Team <uwrobots@uw.edu>
+Installed-Size: 810
+Filename: ./rplidar-1.10.1-3.deb
+Size: 178766
+MD5sum: 072650f3996168c34b2da6e8b0a20ecf
+SHA1: c212c881ef30d5c0a70ed3cf0acf2b434e114608
+SHA256: 7b8a69b01bc6d520b1a5f13de18f24b7ea00da37205b5b919e11f54f76253b12
+Section: devel
+Priority: optional
+Description: RPLidar built using CMake
+
+Package: rplidar
 Version: 1.9.0
 Architecture: amd64
 Maintainer: Husky Robotics Team <uwrobots@uw.edu>
