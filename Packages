@@ -13,29 +13,15 @@ Priority: optional
 Description: Catch2 built using CMake
 
 Package: hindsight-can
-Version: 1.0.0
+Version: 1.0.3
 Architecture: amd64
 Maintainer: Husky Robotics Team <uwrobots@uw.edu>
-Installed-Size: 97
-Filename: ./hindsight-can-1.0.0.deb
-Size: 15594
-MD5sum: 0f9685e4263dddbe3b1e923cb190076f
-SHA1: b3938c3253edacfcaa0573bac16cf5a344b25fba
-SHA256: c9d1b27337c9e31ed4f9e3e9c185999fa959170af59d56b25dcbb5e9cef8d482
-Section: devel
-Priority: optional
-Description: HindsightCAN built using CMake
-
-Package: hindsight-can
-Version: 1.0.1
-Architecture: amd64
-Maintainer: Husky Robotics Team <uwrobots@uw.edu>
-Installed-Size: 97
-Filename: ./hindsight-can-1.0.1.deb
-Size: 15594
-MD5sum: e8b0f36bca3b5c9795f0ef48489ad5fa
-SHA1: 94ee27d3907bad652f1bb2cf4db2264005532c51
-SHA256: 0e6cf6bf8bb2cb05f7731ecfbf37491faac45fc3da9182c8a00df3827fbcff2d
+Installed-Size: 105
+Filename: ./hindsight-can-1.0.3.deb
+Size: 16576
+MD5sum: 2c3033a7911f71a02b2d40b735ddebb4
+SHA1: d484b844854d016af1d348f131ef30869823a740
+SHA256: e0df016276a559b845143590fbb5aea08948fa8e82f3265c08d55b6a26a1302b
 Section: devel
 Priority: optional
 Description: HindsightCAN built using CMake
