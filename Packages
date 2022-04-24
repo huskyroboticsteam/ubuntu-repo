@@ -1,13 +1,13 @@
 Package: catch2
 Version: 2.13.7
-Architecture: amd64
+Architecture: arm64
 Maintainer: https://github.com/catchorg/Catch2/
 Installed-Size: 987
 Filename: ./arm/Catch2-2.13.7-Linux.deb
-Size: 226146
-MD5sum: a3b9bdfadb20276ff9dd27b3ebce1d5b
-SHA1: 627cef8c65e2236c306a39b27a0299398f6bbd07
-SHA256: 62ed320b7db00072d1bf9632fbbcc0967b5c1305194a5f2cc6a60342e7a5dff1
+Size: 226136
+MD5sum: 6d5c92b59c34c4ba0f5e28f6361dcbe0
+SHA1: 523c5ad896cc3ef0539ca338ab540b43a40b4f82
+SHA256: bd72e5cdb0b60fcc787e6a61b64ce94ece5b3a720a5e8018f7a9f527d2299caa
 Section: devel
 Priority: optional
 Description: Catch2 built using CMake
@@ -28,14 +28,14 @@ Description: Catch2 built using CMake
 
 Package: hindsight-can
 Version: 1.0.3
-Architecture: amd64
+Architecture: arm64
 Maintainer: Husky Robotics Team <uwrobots@uw.edu>
 Installed-Size: 96
 Filename: ./arm/hindsight-can-1.0.3.deb
-Size: 15156
-MD5sum: cc4640690fa9afa3e1283c40a363a40d
-SHA1: 3c96012bf5860ceaf398d12a06ed5c977b97b22f
-SHA256: 037ce9e316b8955d7ef1d84afddca69d8a58df27e09713c9badeb87f48de74dc
+Size: 15148
+MD5sum: 7eab6ec8736c9ec65b118cb3eedeb4e9
+SHA1: 85f41d9bb49e57f19440a07e61a02a32c27e0b53
+SHA256: 94e6fb30597efe764bedcf8aee78643757e972c3b204a4301a467dfcf5d172bc
 Section: devel
 Priority: optional
 Description: HindsightCAN built using CMake
@@ -98,14 +98,14 @@ Description: RPLidar built using CMake
 
 Package: rplidar
 Version: 1.10.1-3
-Architecture: amd64
+Architecture: arm64
 Maintainer: Husky Robotics Team <uwrobots@uw.edu>
 Installed-Size: 882
 Filename: ./arm/rplidar-1.10.1-3.deb
-Size: 197224
-MD5sum: e40cf129aab90ce13b2fb5ce30c4bab9
-SHA1: 5a453bf10aeabf255a1ebc3fa16c0fb5f2d298e1
-SHA256: f7fd4a84037c40896fc24717cc6cd8892601b43583235a65b0bd4a7ca8e5bbb3
+Size: 197220
+MD5sum: ed9820199ae4435481470ba07ff0c652
+SHA1: 39083c55c5c91a001f6c720718729a366d118f69
+SHA256: 27b125218a260600578a93a02da1896dce6e9c192b471a9787ba9e125d8593f3
 Section: devel
 Priority: optional
 Description: RPLidar built using CMake
@@ -154,14 +154,14 @@ Description: RPLidar built using CMake
 
 Package: ublox-linux
 Version: 2.0.6-1
-Architecture: amd64
+Architecture: arm64
 Maintainer: Husky Robotics Team <uwrobots@uw.edu>
 Installed-Size: 1015
 Filename: ./arm/ublox-linux-2.0.6-1.deb
-Size: 178892
-MD5sum: 71b953f33cc34c4200f203eb43806406
-SHA1: b0d4d09c1f82c4ee86cf004fedfcce9cd9860a4b
-SHA256: 7e1fb55a1affef049b67ac763feda60093c39d6041816fa89fbcf77b12e3cb5d
+Size: 178896
+MD5sum: 896f217a047377485534cddf6962365c
+SHA1: 72a42b3a05f70ce34364e2014ce91bf30271c423
+SHA256: 93a00ec19e516afe38bbb1c260eef2d2919323938d4ab1451849574db7345dbd
 Section: devel
 Priority: optional
 Description: UbloxLinux built using CMake
@@ -182,14 +182,14 @@ Description: UbloxLinux built using CMake
 
 Package: urg-lidar
 Version: 1.2.5-2
-Architecture: amd64
+Architecture: arm64
 Maintainer: Husky Robotics Team <uwrobots@uw.edu>
 Installed-Size: 390
 Filename: ./arm/urg-lidar-1.2.5-2.deb
-Size: 75552
-MD5sum: 7c0ff16f5dd64da76a87c99e1f38e6ed
-SHA1: a0680f79e8e8b030e0594de16794125895e10ff4
-SHA256: 205a5f8ddb76eeb2b59c0347997f3962c8f49142cff4e13df13584b72a47d63d
+Size: 75544
+MD5sum: e2ebf640d388d83ac07081873394e6ce
+SHA1: 8d31838cc5e379d7742e31385252ae7e3162dda2
+SHA256: 93d0a28ed384517f0e607ac7eed9f12a4370671259592c0856140b6358ff5752
 Section: devel
 Priority: optional
 Description: URGLidar built using CMake
