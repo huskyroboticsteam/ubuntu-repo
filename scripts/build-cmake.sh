@@ -10,6 +10,10 @@ fi
 GIT_REPO="$1"
 REPO_NAME="$(basename $GIT_REPO)"
 
+# Location of ARM toolchain file
+SCRIPTS_DIR="$(dirname "$(readlink -f ${BASH_SOURCE})")"
+ARM_TOOLCHAIN_FILE="${SCRIPTS_DIR}/arm-toolchain.cmake"
+
 # The git tag to use when checking out; uses the first argument of the script if set, and
 # defaults to default branch if not.
 TAG="$2"
@@ -20,8 +24,15 @@ else
 fi
 
 BUILD_DIR="${BUILD_DIR:-/tmp/}"
-OUTPUT_DIR="${OUTPUT_DIR:-$(readlink -f .)}"
-blockmsg "Building in $BUILD_DIR and outputting binary to $OUTPUT_DIR"
+BASE_OUTPUT_DIR="${OUTPUT_DIR:-$(readlink -f .)}"
+if [ -n "$BUILD_ARM" ]; then
+    blockmsg "Cross-compiling for ARM..."
+    OUTPUT_DIR="${BASE_OUTPUT_DIR}/arm"
+else
+    blockmsg "Compiling for native platform..."
+    OUTPUT_DIR="${BASE_OUTPUT_DIR}/x86_64"
+fi 
+echoerr "Building in $BUILD_DIR and outputting binary to $OUTPUT_DIR"
 echoerr "  (To change, set BUILD_DIR and OUTPUT_DIR, respectively)"
 if [ -z $NOSLEEP ]; then
     blockmsg "  CTRL+C in the next 5 seconds if this is incorrect"
@@ -44,7 +55,11 @@ fi
 
 blockmsg "Running CMake build..."
 mkdir -p build && cd build
-cmake ..
+if [ -n "$BUILD_ARM" ]; then
+    cmake -DCMAKE_TOOLCHAIN_FILE="${ARM_TOOLCHAIN_FILE}" ..
+else
+    cmake ..
+fi
 cmake --build . -j$(nproc)
 
 blockmsg "Running CPack to generate DEB file..."
