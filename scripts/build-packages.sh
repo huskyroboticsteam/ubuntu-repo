@@ -15,7 +15,7 @@ if [[ -z $1 || "$1" == "catch2" ]]; then "$BUILD" "$CATCH2_URL" "v2.13.7"; fi
 if [[ -z $1 || "$1" == "ublox" ]]; then "$BUILD" "$UBLOX_URL" "v2.0.6-1"; fi
 if [[ -z $1 || "$1" == "hindsightcan" ]]; then "$BUILD" "$CAN_URL" "v1.0.3"; fi
 
-touch -t 197001010000.00 *.deb
+touch -t 197001010000.00 */*.deb
 
 dpkg-scanpackages --multiversion . > Packages
 gzip -k -f Packages
