@@ -3,7 +3,7 @@ Version: 2.13.7
 Architecture: amd64
 Maintainer: https://github.com/catchorg/Catch2/
 Installed-Size: 987
-Filename: ./Catch2-2.13.7-Linux.deb
+Filename: ./x86_64/Catch2-2.13.7-Linux.deb
 Size: 226134
 MD5sum: be4693e11965b2780a9d3d115b18244b
 SHA1: 2b722703136cbb67b3289057f58921b17f41e215
@@ -17,7 +17,7 @@ Version: 1.0.3
 Architecture: amd64
 Maintainer: Husky Robotics Team <uwrobots@uw.edu>
 Installed-Size: 105
-Filename: ./hindsight-can-1.0.3.deb
+Filename: ./x86_64/hindsight-can-1.0.3.deb
 Size: 16576
 MD5sum: 2c3033a7911f71a02b2d40b735ddebb4
 SHA1: d484b844854d016af1d348f131ef30869823a740
@@ -31,7 +31,7 @@ Version: 1.10.0
 Architecture: amd64
 Maintainer: Husky Robotics Team <uwrobots@uw.edu>
 Installed-Size: 507
-Filename: ./rplidar-1.10.0.deb
+Filename: ./x86_64/rplidar-1.10.0.deb
 Size: 95092
 MD5sum: 5e2e25b7baaf3d11486a3f4b040bafb8
 SHA1: 56ce6cc410ed636ca84035f92da74c0c0c62a618
@@ -45,7 +45,7 @@ Version: 1.10.0-1
 Architecture: amd64
 Maintainer: Husky Robotics Team <uwrobots@uw.edu>
 Installed-Size: 810
-Filename: ./rplidar-1.10.0-1.deb
+Filename: ./x86_64/rplidar-1.10.0-1.deb
 Size: 178682
 MD5sum: 7fae07283b38c8f3645c37176a3aa09a
 SHA1: 3fbea9a97f0619c76ceaf88281a1b99301c0ce0b
@@ -59,7 +59,7 @@ Version: 1.10.0-2
 Architecture: amd64
 Maintainer: Husky Robotics Team <uwrobots@uw.edu>
 Installed-Size: 810
-Filename: ./rplidar-1.10.0-2.deb
+Filename: ./x86_64/rplidar-1.10.0-2.deb
 Size: 178706
 MD5sum: 96153f18a5fa42953172e168742ded21
 SHA1: 1108af860746b2f5b1eda2e3f89b18e4c44fd2d9
@@ -73,7 +73,7 @@ Version: 1.10.1-3
 Architecture: amd64
 Maintainer: Husky Robotics Team <uwrobots@uw.edu>
 Installed-Size: 810
-Filename: ./rplidar-1.10.1-3.deb
+Filename: ./x86_64/rplidar-1.10.1-3.deb
 Size: 178766
 MD5sum: 072650f3996168c34b2da6e8b0a20ecf
 SHA1: c212c881ef30d5c0a70ed3cf0acf2b434e114608
@@ -87,7 +87,7 @@ Version: 1.9.0
 Architecture: amd64
 Maintainer: Husky Robotics Team <uwrobots@uw.edu>
 Installed-Size: 505
-Filename: ./rplidar-1.9.0.deb
+Filename: ./x86_64/rplidar-1.9.0.deb
 Size: 94348
 MD5sum: 66d972209e978c1a44656dc48b0f2f43
 SHA1: 2da6189205ca01740698a0a7235ac0f247b2ef21
@@ -101,7 +101,7 @@ Version: 1.9.1
 Architecture: amd64
 Maintainer: Husky Robotics Team <uwrobots@uw.edu>
 Installed-Size: 505
-Filename: ./rplidar-1.9.1.deb
+Filename: ./x86_64/rplidar-1.9.1.deb
 Size: 94390
 MD5sum: 1b06e2c434501e1001bce55ee5da532a
 SHA1: 2fd9ea8d8302234ddff37b34ca269f0f8e6c9560
@@ -115,7 +115,7 @@ Version: 2.0.6-1
 Architecture: amd64
 Maintainer: Husky Robotics Team <uwrobots@uw.edu>
 Installed-Size: 1038
-Filename: ./ublox-linux-2.0.6-1.deb
+Filename: ./x86_64/ublox-linux-2.0.6-1.deb
 Size: 184796
 MD5sum: c30ce8bec24b36c483b99e7ebb3f02a3
 SHA1: ec8a3f4c6bbb4bba54f88572fbd8ee13fc757a22
@@ -129,7 +129,7 @@ Version: 1.2.5-2
 Architecture: amd64
 Maintainer: Husky Robotics Team <uwrobots@uw.edu>
 Installed-Size: 355
-Filename: ./urg-lidar-1.2.5-2.deb
+Filename: ./x86_64/urg-lidar-1.2.5-2.deb
 Size: 66492
 MD5sum: 296e0b7bd662cd1e62b66c2796f236ae
 SHA1: 9072c54db0229db12516a558817014cddf5c3820
