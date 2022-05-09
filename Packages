@@ -26,6 +26,34 @@ Section: devel
 Priority: optional
 Description: Catch2 built using CMake
 
+Package: frozen
+Version: 1.1.0
+Architecture: arm64
+Maintainer: Husky Robotics Team <uwrobots@uw.edu>
+Installed-Size: 116
+Filename: ./arm/frozen-1.1.0-Linux.deb
+Size: 17260
+MD5sum: 3ddb734e32a673e228319b2c4ad31129
+SHA1: 13694614b21885654fac9e9ec632e1c4bec9af11
+SHA256: 99cfdc921808e1198bd115bc95cdb2b71e167a150891ae6d6e1860d8a19f2ba8
+Section: devel
+Priority: optional
+Description: a C++14 header-only, constexpr alternative to gperf
+
+Package: frozen
+Version: 1.1.0
+Architecture: amd64
+Maintainer: Husky Robotics Team <uwrobots@uw.edu>
+Installed-Size: 116
+Filename: ./x86_64/frozen-1.1.0-Linux.deb
+Size: 17270
+MD5sum: c617c29cf01c1aceda4c8a19df966dd3
+SHA1: 12334d3cdcbcd12e70c3aff03b11e55e3eb02ac6
+SHA256: a01960ba50242d4709afab44a8f63615a50ac2f27784050c3320ced2c1bca1b5
+Section: devel
+Priority: optional
+Description: a C++14 header-only, constexpr alternative to gperf
+
 Package: hindsight-can
 Version: 1.0.3
 Architecture: arm64
