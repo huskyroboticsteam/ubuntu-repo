@@ -82,6 +82,34 @@ Section: devel
 Priority: optional
 Description: HindsightCAN built using CMake
 
+Package: hindsight-can
+Version: 1.0.4
+Architecture: arm64
+Maintainer: Husky Robotics Team <uwrobots@uw.edu>
+Installed-Size: 99
+Filename: ./arm/hindsight-can-1.0.4.deb
+Size: 15906
+MD5sum: 694e9ff52e97bf6f7c3d44331040dd5f
+SHA1: 51da75fd9770b01fb92d40b61fd52c1762586191
+SHA256: ca44727324e7e63716fb4eaa7f57777e501331935b7b66626b580ce27685c733
+Section: devel
+Priority: optional
+Description: HindsightCAN built using CMake
+
+Package: hindsight-can
+Version: 1.0.4
+Architecture: amd64
+Maintainer: Husky Robotics Team <uwrobots@uw.edu>
+Installed-Size: 109
+Filename: ./x86_64/hindsight-can-1.0.4.deb
+Size: 17388
+MD5sum: e4a01f3a37e515b49b05c0366ee505b7
+SHA1: ea4df9dd11055c7fb487127e616e4093ad862135
+SHA256: b56fe11ea7b3eea1d7da8de1e8cee1ecbc81ae50b4746b767de82f915a400405
+Section: devel
+Priority: optional
+Description: HindsightCAN built using CMake
+
 Package: rplidar
 Version: 1.10.1-3
 Architecture: arm64
