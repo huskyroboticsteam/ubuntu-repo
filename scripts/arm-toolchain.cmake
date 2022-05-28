@@ -4,7 +4,7 @@ set(CMAKE_SYSTEM_PROCESSOR ARM)
 #*  set(CMAKE_SYSROOT /home/devel/rasp-pi-rootfs)
 #*  set(CMAKE_STAGING_PREFIX /home/devel/stage)
 
-set(TOOLCHAIN_PREFIX /usr/bin/arm-linux-gnueabi-)
+set(TOOLCHAIN_PREFIX /usr/bin/aarch64-linux-gnu-)
 set(CMAKE_C_COMPILER ${TOOLCHAIN_PREFIX}gcc)
 set(CMAKE_CXX_COMPILER ${TOOLCHAIN_PREFIX}g++)
 set(CPACK_DEBIAN_PACKAGE_ARCHITECTURE "arm64")

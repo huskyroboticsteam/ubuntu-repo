@@ -1,13 +1,13 @@
 Package: catch2
 Version: 2.13.7
 Architecture: arm64
-Maintainer: https://github.com/catchorg/Catch2/
+Maintainer: Husky Robotics Team <uwrobots@uw.edu>
 Installed-Size: 987
 Filename: ./arm/Catch2-2.13.7-Linux.deb
-Size: 226136
-MD5sum: 6d5c92b59c34c4ba0f5e28f6361dcbe0
-SHA1: 523c5ad896cc3ef0539ca338ab540b43a40b4f82
-SHA256: bd72e5cdb0b60fcc787e6a61b64ce94ece5b3a720a5e8018f7a9f527d2299caa
+Size: 226142
+MD5sum: 659cac9ef942b46f58f519c685bf2cd8
+SHA1: 09a8ea27c77605726bcf761661d5ef0221a14189
+SHA256: ad4bf908c59949f69f3018378a1a2bad12bff266449192f457329b4fee7841be
 Section: devel
 Priority: optional
 Description: Catch2 built using CMake
@@ -32,10 +32,10 @@ Architecture: arm64
 Maintainer: Husky Robotics Team <uwrobots@uw.edu>
 Installed-Size: 116
 Filename: ./arm/frozen-1.1.0-Linux.deb
-Size: 17260
-MD5sum: 3ddb734e32a673e228319b2c4ad31129
-SHA1: 13694614b21885654fac9e9ec632e1c4bec9af11
-SHA256: 99cfdc921808e1198bd115bc95cdb2b71e167a150891ae6d6e1860d8a19f2ba8
+Size: 17266
+MD5sum: 5744be39b06bd1ac523f0b65e83fd0fa
+SHA1: 5e3329d234f2d17ec0001910652b46f68b006d9c
+SHA256: c3c266c147ae58c5905712d5fc579912311d7937ce135774312347a185cbbefa
 Section: devel
 Priority: optional
 Description: a C++14 header-only, constexpr alternative to gperf
@@ -86,12 +86,12 @@ Package: hindsight-can
 Version: 1.0.4
 Architecture: arm64
 Maintainer: Husky Robotics Team <uwrobots@uw.edu>
-Installed-Size: 99
+Installed-Size: 108
 Filename: ./arm/hindsight-can-1.0.4.deb
-Size: 15906
-MD5sum: 694e9ff52e97bf6f7c3d44331040dd5f
-SHA1: 51da75fd9770b01fb92d40b61fd52c1762586191
-SHA256: ca44727324e7e63716fb4eaa7f57777e501331935b7b66626b580ce27685c733
+Size: 17472
+MD5sum: b019d1612048f2740adddfafa7bab264
+SHA1: 1773fd94c000f80ab986de86016cb7a0fbc22315
+SHA256: d4f09728f55937c1ba1be5c8402a9eb57b71375efcb4cbc05a1d79a8f6ae14d7
 Section: devel
 Priority: optional
 Description: HindsightCAN built using CMake
@@ -119,9 +119,9 @@ Depends: libc6-dev
 Suggests: cmake, pkg-config, pkg-conf
 Filename: ./arm/argparse-2.5.0-Linux.deb
 Size: 10962
-MD5sum: 7181cea3f2f5ebfa3c796c4508aa081e
-SHA1: df1a65ea586d718e7c0ee02a556f93392364209e
-SHA256: 48b34e2f3643e94c3b2e05d1a808bfbddda2c1b270679fe0a927b51f3f6f8c3b
+MD5sum: 53071707af5334eaf62f50a2a2769346
+SHA1: bd2c532af1d05ebcbaec908144ccf8790adbfed1
+SHA256: 1eda6940688f5aaf081ab2174c1908562ab10402e8f233400a7e52ea2ea74d7e
 Section: devel
 Priority: optional
 Description: A single header argument parser for C++17
@@ -148,12 +148,12 @@ Package: rplidar
 Version: 1.10.1-3
 Architecture: arm64
 Maintainer: Husky Robotics Team <uwrobots@uw.edu>
-Installed-Size: 882
+Installed-Size: 856
 Filename: ./arm/rplidar-1.10.1-3.deb
-Size: 197220
-MD5sum: ed9820199ae4435481470ba07ff0c652
-SHA1: 39083c55c5c91a001f6c720718729a366d118f69
-SHA256: 27b125218a260600578a93a02da1896dce6e9c192b471a9787ba9e125d8593f3
+Size: 182240
+MD5sum: 39f5099b52f2f06d82ae81318820d4f9
+SHA1: c440c0d8acc44379f0a545b5b772cf9b988c56f0
+SHA256: a24388f627a7943c443c2ffbba119358b04891eb1e3e14ef4058cb8da44c35bf
 Section: devel
 Priority: optional
 Description: RPLidar built using CMake
@@ -176,12 +176,12 @@ Package: ublox-linux
 Version: 2.0.6-1
 Architecture: arm64
 Maintainer: Husky Robotics Team <uwrobots@uw.edu>
-Installed-Size: 1015
+Installed-Size: 1028
 Filename: ./arm/ublox-linux-2.0.6-1.deb
-Size: 178896
-MD5sum: 896f217a047377485534cddf6962365c
-SHA1: 72a42b3a05f70ce34364e2014ce91bf30271c423
-SHA256: 93a00ec19e516afe38bbb1c260eef2d2919323938d4ab1451849574db7345dbd
+Size: 182710
+MD5sum: e109b4443d53029020a806adfcd2ebe8
+SHA1: 7da563f9da08929da66b70d3c3b30d562bb9bf52
+SHA256: d7fa9266866cb57719f7f952edf0dd32eab5db793651e76da34ca589272d2f80
 Section: devel
 Priority: optional
 Description: UbloxLinux built using CMake
@@ -204,12 +204,12 @@ Package: urg-lidar
 Version: 1.2.5-2
 Architecture: arm64
 Maintainer: Husky Robotics Team <uwrobots@uw.edu>
-Installed-Size: 390
+Installed-Size: 370
 Filename: ./arm/urg-lidar-1.2.5-2.deb
-Size: 75544
-MD5sum: e2ebf640d388d83ac07081873394e6ce
-SHA1: 8d31838cc5e379d7742e31385252ae7e3162dda2
-SHA256: 93d0a28ed384517f0e607ac7eed9f12a4370671259592c0856140b6358ff5752
+Size: 68200
+MD5sum: 120c04c663698de5061bdd30e876fba7
+SHA1: 50f3f9053f1d1763b1e83afdc9d8454091bf4758
+SHA256: 44cfa19c7885be0510ab88b82d7c403d80ed19885e750da1acb3f59eeebcb122
 Section: devel
 Priority: optional
 Description: URGLidar built using CMake
