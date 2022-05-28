@@ -110,6 +110,40 @@ Section: devel
 Priority: optional
 Description: HindsightCAN built using CMake
 
+Package: libargparse-dev
+Version: 2.5.0
+Architecture: arm64
+Maintainer: Pranav Srinivas Kumar
+Installed-Size: 69
+Depends: libc6-dev
+Suggests: cmake, pkg-config, pkg-conf
+Filename: ./arm/argparse-2.5.0-Linux.deb
+Size: 10962
+MD5sum: 7181cea3f2f5ebfa3c796c4508aa081e
+SHA1: df1a65ea586d718e7c0ee02a556f93392364209e
+SHA256: 48b34e2f3643e94c3b2e05d1a808bfbddda2c1b270679fe0a927b51f3f6f8c3b
+Section: devel
+Priority: optional
+Description: A single header argument parser for C++17
+ A single header argument parser for C++17
+
+Package: libargparse-dev
+Version: 2.5.0
+Architecture: amd64
+Maintainer: Pranav Srinivas Kumar
+Installed-Size: 69
+Depends: libc6-dev
+Suggests: cmake, pkg-config, pkg-conf
+Filename: ./x86_64/argparse-2.5.0-Linux.deb
+Size: 10960
+MD5sum: 1fe3396d503adadb1d4149127f4c9755
+SHA1: 7fc995a008db4dce644b665b9a8031157f024dea
+SHA256: db809949f23a11604e160f488412c9e9e4dbca7a5dc64a1f9a34ebec96175cb6
+Section: devel
+Priority: optional
+Description: A single header argument parser for C++17
+ A single header argument parser for C++17
+
 Package: rplidar
 Version: 1.10.1-3
 Architecture: arm64

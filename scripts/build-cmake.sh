@@ -63,8 +63,12 @@ fi
 cmake --build . -j$(nproc)
 
 blockmsg "Running CPack to generate DEB file..."
-cpack -G DEB \
-	  -D CPACK_DEBIAN_PACKAGE_MAINTAINER="Husky Robotics Team <uwrobots@uw.edu>"
+if [ -n "$KEEP_MAINTAINER" ]; then
+	cpack -G DEB
+else
+	cpack -G DEB \
+		  -D CPACK_DEBIAN_PACKAGE_MAINTAINER="Husky Robotics Team <uwrobots@uw.edu>"
+fi
 
 blockmsg "Copying DEB files to \"$OUTPUT_DIR\"..."
 cp -fr *.deb "$OUTPUT_DIR"
