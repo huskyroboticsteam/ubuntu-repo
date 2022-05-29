@@ -4,10 +4,10 @@ Architecture: arm64
 Maintainer: Husky Robotics Team <uwrobots@uw.edu>
 Installed-Size: 987
 Filename: ./arm/Catch2-2.13.7-Linux.deb
-Size: 226142
-MD5sum: 659cac9ef942b46f58f519c685bf2cd8
-SHA1: 09a8ea27c77605726bcf761661d5ef0221a14189
-SHA256: ad4bf908c59949f69f3018378a1a2bad12bff266449192f457329b4fee7841be
+Size: 226148
+MD5sum: a21fd9de3cee83d447b11258f792ef4b
+SHA1: c4b62bbe8e3a45217c693290b2adc2f93ff5bddf
+SHA256: 5177827d1926594a60b7b4e84b0768d2dfb721fcc444fca72cec23bad9cb99d9
 Section: devel
 Priority: optional
 Description: Catch2 built using CMake
@@ -32,10 +32,10 @@ Architecture: arm64
 Maintainer: Husky Robotics Team <uwrobots@uw.edu>
 Installed-Size: 116
 Filename: ./arm/frozen-1.1.0-Linux.deb
-Size: 17266
-MD5sum: 5744be39b06bd1ac523f0b65e83fd0fa
-SHA1: 5e3329d234f2d17ec0001910652b46f68b006d9c
-SHA256: c3c266c147ae58c5905712d5fc579912311d7937ce135774312347a185cbbefa
+Size: 17270
+MD5sum: 65541753f0c82343091bf5898ead6e10
+SHA1: cc4ec3cfd7454938e024fa4784bf67530964b9f4
+SHA256: 8be302d983162b46746774b91f32eeb86b98d5fcd84dccee3338b065ec2995d2
 Section: devel
 Priority: optional
 Description: a C++14 header-only, constexpr alternative to gperf
@@ -88,10 +88,10 @@ Architecture: arm64
 Maintainer: Husky Robotics Team <uwrobots@uw.edu>
 Installed-Size: 108
 Filename: ./arm/hindsight-can-1.0.4.deb
-Size: 17472
-MD5sum: b019d1612048f2740adddfafa7bab264
-SHA1: 1773fd94c000f80ab986de86016cb7a0fbc22315
-SHA256: d4f09728f55937c1ba1be5c8402a9eb57b71375efcb4cbc05a1d79a8f6ae14d7
+Size: 17470
+MD5sum: 6f92439dbf43f89610dc5605591b24a8
+SHA1: bf41a5a2340442cfcd02098a3d44e046282a934b
+SHA256: 81efe128a169c8150322bbd18463b2035b869145f04b36e32b09a6b729805ab4
 Section: devel
 Priority: optional
 Description: HindsightCAN built using CMake
@@ -119,9 +119,9 @@ Depends: libc6-dev
 Suggests: cmake, pkg-config, pkg-conf
 Filename: ./arm/argparse-2.5.0-Linux.deb
 Size: 10962
-MD5sum: 53071707af5334eaf62f50a2a2769346
-SHA1: bd2c532af1d05ebcbaec908144ccf8790adbfed1
-SHA256: 1eda6940688f5aaf081ab2174c1908562ab10402e8f233400a7e52ea2ea74d7e
+MD5sum: 796216a05802325f45f1280108fd43b7
+SHA1: 37e70edad7251b7ac1679acadf99c5a9c075d111
+SHA256: b73c1751f54376be554107c45cf88f89e0d3420c1042848428a88ec68751875a
 Section: devel
 Priority: optional
 Description: A single header argument parser for C++17
@@ -150,10 +150,10 @@ Architecture: arm64
 Maintainer: Husky Robotics Team <uwrobots@uw.edu>
 Installed-Size: 856
 Filename: ./arm/rplidar-1.10.1-3.deb
-Size: 182240
-MD5sum: 39f5099b52f2f06d82ae81318820d4f9
-SHA1: c440c0d8acc44379f0a545b5b772cf9b988c56f0
-SHA256: a24388f627a7943c443c2ffbba119358b04891eb1e3e14ef4058cb8da44c35bf
+Size: 182236
+MD5sum: fc6f58f2c8e3d4b401fe4d69ac2303bf
+SHA1: 2bb80f39a77bae0db1a06a56e2d0d186d37a8dee
+SHA256: 10cd9599cb52176c8a2dc5982b6c85adf053bc198a957d7e71063315b9444cbf
 Section: devel
 Priority: optional
 Description: RPLidar built using CMake
@@ -179,9 +179,9 @@ Maintainer: Husky Robotics Team <uwrobots@uw.edu>
 Installed-Size: 1028
 Filename: ./arm/ublox-linux-2.0.6-1.deb
 Size: 182710
-MD5sum: e109b4443d53029020a806adfcd2ebe8
-SHA1: 7da563f9da08929da66b70d3c3b30d562bb9bf52
-SHA256: d7fa9266866cb57719f7f952edf0dd32eab5db793651e76da34ca589272d2f80
+MD5sum: 92bbd9496dcd6d1ff72eff573dc06eed
+SHA1: 1e4de961189e5652b99114dbeae4bd83983d00d7
+SHA256: 5f9785cf721ef892f5db71da1e7a6ff9b77d1e6b445586c7955aaffb55e961f7
 Section: devel
 Priority: optional
 Description: UbloxLinux built using CMake
@@ -206,10 +206,10 @@ Architecture: arm64
 Maintainer: Husky Robotics Team <uwrobots@uw.edu>
 Installed-Size: 370
 Filename: ./arm/urg-lidar-1.2.5-2.deb
-Size: 68200
-MD5sum: 120c04c663698de5061bdd30e876fba7
-SHA1: 50f3f9053f1d1763b1e83afdc9d8454091bf4758
-SHA256: 44cfa19c7885be0510ab88b82d7c403d80ed19885e750da1acb3f59eeebcb122
+Size: 68196
+MD5sum: 76479449a388d6c91c09c35af2536794
+SHA1: aa710420c2c36fc262dcdb545c40441657aa8bd7
+SHA256: a7bd0264b8f82777030aec3d868a8fe01abb6cdab54da688e4824388e0a5a9ad
 Section: devel
 Priority: optional
 Description: URGLidar built using CMake
