@@ -40,6 +40,7 @@ if [ -z $NOSLEEP ]; then
 fi
 
 blockmsg "Cloning repo \"$GIT_REPO\"..."
+mkdir -p "$BUILD_DIR"
 cd "$BUILD_DIR"
 if [ -d "$REPO_NAME" ]; then
     echoerr "$REPO_NAME already exists, skipping clone..."
@@ -71,6 +72,7 @@ else
 fi
 
 blockmsg "Copying DEB files to \"$OUTPUT_DIR\"..."
+mkdir -p "$OUTPUT_DIR"
 cp -fr *.deb "$OUTPUT_DIR"
 
 blockmsg "Cleaning up..."
