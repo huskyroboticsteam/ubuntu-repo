@@ -119,9 +119,9 @@ Depends: libc6-dev
 Suggests: cmake, pkg-config, pkg-conf
 Filename: ./arm/argparse-2.5.0-Linux.deb
 Size: 10962
-MD5sum: 796216a05802325f45f1280108fd43b7
-SHA1: 37e70edad7251b7ac1679acadf99c5a9c075d111
-SHA256: b73c1751f54376be554107c45cf88f89e0d3420c1042848428a88ec68751875a
+MD5sum: c801fe2e9c78912bebff8a7a3a87d0b6
+SHA1: 75de7b3ef03feb518730ee2e496dcf780ad0f6a8
+SHA256: 61eb117a90c2c1fc0891196abd26283f24e8d24082f478d6545b9b32e99da905
 Section: devel
 Priority: optional
 Description: A single header argument parser for C++17
@@ -135,10 +135,44 @@ Installed-Size: 69
 Depends: libc6-dev
 Suggests: cmake, pkg-config, pkg-conf
 Filename: ./x86_64/argparse-2.5.0-Linux.deb
-Size: 10960
-MD5sum: 1fe3396d503adadb1d4149127f4c9755
-SHA1: 7fc995a008db4dce644b665b9a8031157f024dea
-SHA256: db809949f23a11604e160f488412c9e9e4dbca7a5dc64a1f9a34ebec96175cb6
+Size: 10950
+MD5sum: 7cad8dee63f36f047d0659fe97a93d3c
+SHA1: bc01bb41ede3abfa6f22d1bfea0c90d89e42f6a4
+SHA256: 27995d170c935399e1bc233f420ed5a9b20c4f752fb571a367c19dc3931aebdd
+Section: devel
+Priority: optional
+Description: A single header argument parser for C++17
+ A single header argument parser for C++17
+
+Package: libargparse-dev
+Version: 2.6.0
+Architecture: arm64
+Maintainer: Pranav Srinivas Kumar
+Installed-Size: 71
+Depends: libc6-dev
+Suggests: cmake, pkg-config, pkg-conf
+Filename: ./arm/argparse-2.6.0-Linux.deb
+Size: 11354
+MD5sum: 8968e6f712799314519353dc63ddc950
+SHA1: 97b52927d7f120eea461d65877dfdd24b44cfb61
+SHA256: 257ecd5cfdc17d6618027ee42641393fc32ced3cde5bba62a71180ad8ff5c5d7
+Section: devel
+Priority: optional
+Description: A single header argument parser for C++17
+ A single header argument parser for C++17
+
+Package: libargparse-dev
+Version: 2.6.0
+Architecture: amd64
+Maintainer: Pranav Srinivas Kumar
+Installed-Size: 71
+Depends: libc6-dev
+Suggests: cmake, pkg-config, pkg-conf
+Filename: ./x86_64/argparse-2.6.0-Linux.deb
+Size: 11350
+MD5sum: 1687a0410901551db6e1f38ae639b8d5
+SHA1: 5810d5f321a2019e2fdfe7c6b627d8b9039a65b5
+SHA256: 7bf58c41d21d7f83c705a55e365d39fdfbc9002c30a02301e346b6911930661f
 Section: devel
 Priority: optional
 Description: A single header argument parser for C++17
