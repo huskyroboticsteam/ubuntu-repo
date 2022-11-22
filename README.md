@@ -74,5 +74,5 @@ BUILD_ARM="true" ./scripts/build-packages.sh hindsightcan
 
 You may have to re-enter the password while building.
 
-Now commit and push, and the dependencies should be updated! Note that all dev machines will need to update their version of these dependencies.\
+Now commit and push, and the dependencies should be updated! Note that all dev machines will need to update their version of these dependencies.
 
