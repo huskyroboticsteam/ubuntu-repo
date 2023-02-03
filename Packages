@@ -54,6 +54,20 @@ Section: devel
 Priority: optional
 Description: a C++14 header-only, constexpr alternative to gperf
 
+Package: h264encoder
+Version: 1.0.0
+Architecture: amd64
+Maintainer: Husky Robotics Team <uwrobots@uw.edu>
+Installed-Size: 48
+Filename: ./x86_64/h264encoder-1.0.0.deb
+Size: 7232
+MD5sum: 044c18cbb2efeccbc38360b9c334fcb3
+SHA1: 8329f1b679017179cdeda72c76cc6d9d124f2bd0
+SHA256: 6d8e6f6e32081ee585206174543fe5fdc2f97a5b3b0314dfda40a0be6d717b85
+Section: devel
+Priority: optional
+Description: H264Encoder built using CMake
+
 Package: hindsight-can
 Version: 1.0.3
 Architecture: arm64
