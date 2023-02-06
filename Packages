@@ -55,20 +55,6 @@ Priority: optional
 Description: a C++14 header-only, constexpr alternative to gperf
 
 Package: h264encoder
-Version: 1.0.0
-Architecture: amd64
-Maintainer: Husky Robotics Team <uwrobots@uw.edu>
-Installed-Size: 48
-Filename: ./x86_64/h264encoder-1.0.0.deb
-Size: 7218
-MD5sum: 7f161809b38e1a4f65d61143efecf0d5
-SHA1: eb2f8cf9dfdaf4454ab9e60e750fad6d4a09a87f
-SHA256: adbd346c0d3a90f63c05afaa2193c0396230765681ccc56c7aa2070734be6785
-Section: devel
-Priority: optional
-Description: H264Encoder built using CMake
-
-Package: h264encoder
 Version: 1.0.1
 Architecture: amd64
 Maintainer: Husky Robotics Team <uwrobots@uw.edu>
@@ -78,6 +64,20 @@ Size: 7220
 MD5sum: 5d19ef13821be881a38750b971e74928
 SHA1: 5f16a697ae660b596eac12ff94a2007e89182a67
 SHA256: bf9a96f44d0eb7a357fd764b7b19ab39020281cb216e377239f61dc8008750ac
+Section: devel
+Priority: optional
+Description: H264Encoder built using CMake
+
+Package: h264encoder
+Version: 1.1.0
+Architecture: amd64
+Maintainer: Husky Robotics Team <uwrobots@uw.edu>
+Installed-Size: 48
+Filename: ./x86_64/h264encoder-1.1.0.deb
+Size: 7230
+MD5sum: 4e073bcbf2303439b58650e5f75fba59
+SHA1: 93857f0ba3df79ab5582dd2a5a2fad4b99b92562
+SHA256: 421f3f4703ee4c34bf046aae8c1132c972e66bc34805793df6001826edfe5b00
 Section: devel
 Priority: optional
 Description: H264Encoder built using CMake
