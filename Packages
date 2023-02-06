@@ -60,10 +60,24 @@ Architecture: amd64
 Maintainer: Husky Robotics Team <uwrobots@uw.edu>
 Installed-Size: 48
 Filename: ./x86_64/h264encoder-1.0.0.deb
-Size: 7232
-MD5sum: 044c18cbb2efeccbc38360b9c334fcb3
-SHA1: 8329f1b679017179cdeda72c76cc6d9d124f2bd0
-SHA256: 6d8e6f6e32081ee585206174543fe5fdc2f97a5b3b0314dfda40a0be6d717b85
+Size: 7218
+MD5sum: 7f161809b38e1a4f65d61143efecf0d5
+SHA1: eb2f8cf9dfdaf4454ab9e60e750fad6d4a09a87f
+SHA256: adbd346c0d3a90f63c05afaa2193c0396230765681ccc56c7aa2070734be6785
+Section: devel
+Priority: optional
+Description: H264Encoder built using CMake
+
+Package: h264encoder
+Version: 1.0.1
+Architecture: amd64
+Maintainer: Husky Robotics Team <uwrobots@uw.edu>
+Installed-Size: 48
+Filename: ./x86_64/h264encoder-1.0.1.deb
+Size: 7220
+MD5sum: 5d19ef13821be881a38750b971e74928
+SHA1: 5f16a697ae660b596eac12ff94a2007e89182a67
+SHA256: bf9a96f44d0eb7a357fd764b7b19ab39020281cb216e377239f61dc8008750ac
 Section: devel
 Priority: optional
 Description: H264Encoder built using CMake
