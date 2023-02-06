@@ -10,6 +10,7 @@ UBLOX_URL="https://github.com/huskyroboticsteam/ublox-linux"
 CAN_URL="https://github.com/huskyroboticsteam/HindsightCAN"
 FROZEN_URL="https://github.com/serge-sans-paille/frozen"
 ARGPARSE_URL="https://github.com/p-ranav/argparse"
+H264ENCODER="https://github.com/huskyroboticsteam/CPP-H264-Encoder"
 
 if [[ -z $1 || "$1" == "urg-lidar" ]]; then "$BUILD" "$URG_LIDAR_URL" "v1.2.5-2"; fi
 if [[ -z $1 || "$1" == "rplidar" ]]; then "$BUILD" "$RPLIDAR_URL" "v1.10.0-3"; fi
@@ -18,6 +19,7 @@ if [[ -z $1 || "$1" == "ublox" ]]; then "$BUILD" "$UBLOX_URL" "v2.0.6-1"; fi
 if [[ -z $1 || "$1" == "hindsightcan" ]]; then "$BUILD" "$CAN_URL"; fi
 if [[ -z $1 || "$1" == "frozen" ]]; then "$BUILD" "$FROZEN_URL" "1.1.1"; fi
 if [[ -z $1 || "$1" == "argparse" ]]; then KEEP_MAINTAINER=1 "$BUILD" "$ARGPARSE_URL" "v2.6"; fi
+if [[ -z $1 || "$1" == "h264encoder" ]]; then "$BUILD" "$H264ENCODER"; fi
 
 touch -t 197001010000.00 */*.deb
 
