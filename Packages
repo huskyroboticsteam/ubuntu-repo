@@ -84,6 +84,20 @@ Description: H264Encoder built using CMake
 
 Package: h264encoder
 Version: 1.1.1
+Architecture: arm64
+Maintainer: Husky Robotics Team <uwrobots@uw.edu>
+Installed-Size: 58
+Filename: ./arm/h264encoder-1.1.1.deb
+Size: 7838
+MD5sum: 909fdb395209761d5890eec7826bf1b0
+SHA1: a1d4f112c6d12a394397777932e8a60185f698ff
+SHA256: 3ff56f3824f3280ca996debeced9e60fb6129aaaab93a3b93e4190beca3e61e7
+Section: devel
+Priority: optional
+Description: H264Encoder built using CMake
+
+Package: h264encoder
+Version: 1.1.1
 Architecture: amd64
 Maintainer: Husky Robotics Team <uwrobots@uw.edu>
 Installed-Size: 57
