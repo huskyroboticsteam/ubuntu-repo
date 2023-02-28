@@ -110,6 +110,20 @@ Section: devel
 Priority: optional
 Description: H264Encoder built using CMake
 
+Package: h264encoder
+Version: 2.0.0
+Architecture: amd64
+Maintainer: Husky Robotics Team <uwrobots@uw.edu>
+Installed-Size: 177
+Filename: ./x86_64/h264encoder-2.0.0.deb
+Size: 27446
+MD5sum: 20e418e863fc68e9ed4d005362e91f8a
+SHA1: 7e2060e820ea49b4eac7a3ad1ba8a27ca9c94d19
+SHA256: e451b36c1ac334984abb574a2a94a8e28d622b3965890f8b8df9f47016ad803e
+Section: devel
+Priority: optional
+Description: H264Encoder built using CMake
+
 Package: hindsight-can
 Version: 1.0.3
 Architecture: arm64
