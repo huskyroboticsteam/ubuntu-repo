@@ -1,1 +1,1 @@
-deb https://huskyroboticsteam.github.io/ubuntu-repo ./
+deb [signed-by=/etc/apt/keyrings/KEY.gpg] https://huskyroboticsteam.github.io/ubuntu-repo ./
